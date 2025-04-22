@@ -14,19 +14,11 @@
 			remoteGlobalIDString = D9EEEF5D2DAEEE68002E1100;
 			remoteInfo = SpaceXLaunches;
 		};
-		D9EEEF792DAEEE69002E1100 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9EEEF562DAEEE68002E1100 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9EEEF5D2DAEEE68002E1100;
-			remoteInfo = SpaceXLaunches;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D9EEEF5E2DAEEE68002E1100 /* SpaceXLaunches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXLaunches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EEEF6E2DAEEE69002E1100 /* SpaceXLaunchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXLaunchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9EEEF782DAEEE69002E1100 /* SpaceXLaunchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceXLaunchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		D9EEEF712DAEEE69002E1100 /* SpaceXLaunchesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SpaceXLaunchesTests;
-			sourceTree = "<group>";
-		};
-		D9EEEF7B2DAEEE69002E1100 /* SpaceXLaunchesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpaceXLaunchesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9EEEF752DAEEE69002E1100 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				D9EEEF602DAEEE68002E1100 /* SpaceXLaunches */,
 				D9EEEF712DAEEE69002E1100 /* SpaceXLaunchesTests */,
-				D9EEEF7B2DAEEE69002E1100 /* SpaceXLaunchesUITests */,
 				D9EEEF5F2DAEEE68002E1100 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				D9EEEF5E2DAEEE68002E1100 /* SpaceXLaunches.app */,
 				D9EEEF6E2DAEEE69002E1100 /* SpaceXLaunchesTests.xctest */,
-				D9EEEF782DAEEE69002E1100 /* SpaceXLaunchesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = D9EEEF6E2DAEEE69002E1100 /* SpaceXLaunchesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9EEEF772DAEEE69002E1100 /* SpaceXLaunchesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9EEEF882DAEEE69002E1100 /* Build configuration list for PBXNativeTarget "SpaceXLaunchesUITests" */;
-			buildPhases = (
-				D9EEEF742DAEEE69002E1100 /* Sources */,
-				D9EEEF752DAEEE69002E1100 /* Frameworks */,
-				D9EEEF762DAEEE69002E1100 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D9EEEF7A2DAEEE69002E1100 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D9EEEF7B2DAEEE69002E1100 /* SpaceXLaunchesUITests */,
-			);
-			name = SpaceXLaunchesUITests;
-			packageProductDependencies = (
-			);
-			productName = SpaceXLaunchesUITests;
-			productReference = D9EEEF782DAEEE69002E1100 /* SpaceXLaunchesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					D9EEEF6D2DAEEE69002E1100 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = D9EEEF5D2DAEEE68002E1100;
-					};
-					D9EEEF772DAEEE69002E1100 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = D9EEEF5D2DAEEE68002E1100;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				D9EEEF5D2DAEEE68002E1100 /* SpaceXLaunches */,
 				D9EEEF6D2DAEEE69002E1100 /* SpaceXLaunchesTests */,
-				D9EEEF772DAEEE69002E1100 /* SpaceXLaunchesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D9EEEF6C2DAEEE69002E1100 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9EEEF762DAEEE69002E1100 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9EEEF742DAEEE69002E1100 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = D9EEEF5D2DAEEE68002E1100 /* SpaceXLaunches */;
 			targetProxy = D9EEEF6F2DAEEE69002E1100 /* PBXContainerItemProxy */;
-		};
-		D9EEEF7A2DAEEE69002E1100 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9EEEF5D2DAEEE68002E1100 /* SpaceXLaunches */;
-			targetProxy = D9EEEF792DAEEE69002E1100 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,8 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpaceXLaunches/Preview Content\"";
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,8 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpaceXLaunches/Preview Content\"";
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,7 +381,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -471,7 +400,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -481,40 +410,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceXLaunches.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceXLaunches";
-			};
-			name = Release;
-		};
-		D9EEEF892DAEEE69002E1100 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rdnv.SpaceXLaunchesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpaceXLaunches;
-			};
-			name = Debug;
-		};
-		D9EEEF8A2DAEEE69002E1100 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K5TF5N85C;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rdnv.SpaceXLaunchesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpaceXLaunches;
 			};
 			name = Release;
 		};
@@ -544,15 +439,6 @@
 			buildConfigurations = (
 				D9EEEF862DAEEE69002E1100 /* Debug */,
 				D9EEEF872DAEEE69002E1100 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9EEEF882DAEEE69002E1100 /* Build configuration list for PBXNativeTarget "SpaceXLaunchesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9EEEF892DAEEE69002E1100 /* Debug */,
-				D9EEEF8A2DAEEE69002E1100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
